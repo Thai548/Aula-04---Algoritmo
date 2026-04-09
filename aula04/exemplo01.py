@@ -37,6 +37,24 @@ if usuario == 'admin' and senha == '1234':
 else:
     print ('USUÁRIO OU SENHA INCORRETO')
 
+
+# IF ENCADIADO 
+
+nota= float(input('Informe a nota do Aluno:  '))
+    
+if nota >= 9:
+    print('A')
+elif nota >= 7:
+    print('B')
+elif nota >= 5:
+    print('C')
+elif nota >= 3:
+    print('D')
+else:
+    print('E')
+
+
+
 #  IF Aninhados
     
 nota = float (input('Informe a nota od aluno'))
